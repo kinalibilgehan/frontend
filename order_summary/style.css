@@ -1,0 +1,77 @@
+* {
+  font-family: "Red Hat Display";
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  background-color: hsl(224, 23%, 55%);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.col {
+}
+
+.title {
+  font-weight: 900;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: 1rem;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 5%;
+  /* text-align: center; */
+}
+
+.plan-info {
+  margin: 0.5rem;
+}
+
+.link-change {
+  color: hsl(245, 75%, 52%);
+}
+
+.plan-price {
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+}
+
+.buttons {
+  margin-top: 2rem;
+}
+
+.btn-container {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.btn {
+  padding: 1rem;
+}
+
+.btn-proceed {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+}
+
+.btn-cancel {
+  background-color: hsl(225, 100%, 98%);
+}
