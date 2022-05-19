@@ -1,0 +1,53 @@
+body {
+  background-color: hsl(257, 40%, 49%);
+}
+
+.container {
+  background-image: url("images/bg-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 32px 32px;
+}
+
+.row-1 {
+  margin-bottom: 48px;
+}
+
+.row-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  margin: 0 32px;
+  margin-bottom: 48px;
+}
+
+.title {
+  color: #fff;
+  margin-left: 16px;
+  margin-bottom: 32px;
+}
+
+.title-text {
+  color: #fff;
+  margin-left: 16px;
+  margin-bottom: 32px;
+}
+
+.btn {
+  padding: 8px 32px;
+  background-color: #fff;
+  color: hsl(257, 40%, 49%);
+  border-radius: 15%;
+}
+
+@media (max-width: 375px) {
+  .container {
+    background-image: url("images/bg-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
